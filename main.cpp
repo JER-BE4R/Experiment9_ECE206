@@ -5,9 +5,8 @@
 using namespace std;
 
 int main() {
-	int inputOne = 0;
+	int inputOne = 1;
 	int inputTwo = 1;
-
 
 	int result = evaluateSystem(inputOne,inputTwo);
 
@@ -28,10 +27,7 @@ int main() {
 	}
 	else cout << "ERROR";
 
-
 	cout << endl;
-
-//hello world this is a testing branch test
 
 	return 0;
 }
