@@ -6,7 +6,7 @@ using namespace std;
 
 int main() {
 	int inputOne = 1;
-	int inputTwo = 1;
+	int inputTwo = 0;
 
 	int result = evaluateSystem(inputOne,inputTwo);
 
@@ -28,6 +28,28 @@ int main() {
 	else cout << "ERROR";
 
 	cout << endl;
+
+	inputOne = changeSystem(inputOne);
+	inputTwo = changeSystem(inputTwo);
+
+	int newResult = evaluateSystem(inputOne,inputTwo);
+
+	cout << "inputOne = " << inputOne << endl;
+	cout << "inputTwo = " << inputTwo << endl;
+	cout << "New Result = "   << newResult << endl;
+
+	cout << "New output is: " << endl;
+
+	if(newResult == LIGHTS_ON) {
+		cout << "LIGHTS ON";
+	}
+	else if(newResult == LIGHTS_BLINK) {
+		cout << "LIGHTS BLINKING";
+	}
+	else if(newResult == STOP) {
+		cout << "STOP";
+	}
+	else cout << "ERROR";
 
 	return 0;
 }

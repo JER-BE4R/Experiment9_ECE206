@@ -21,3 +21,14 @@ int evaluateSystem(int inputOne, int inputTwo) {
 	}
 
 }
+
+int changeSystem(int input) {
+	if(input == 0) {
+		input = 1;
+	}
+	else {
+		input = 0;
+	}
+
+	return input;
+}

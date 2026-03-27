@@ -3,4 +3,5 @@
 
 int evaluateSystem(int inputOne, int inputTwo);
 
+int changeSystem(int input);
 #endif
