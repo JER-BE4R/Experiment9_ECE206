@@ -64,8 +64,3 @@ int main() {
 
 	return 0;
 }
-
-int main() {
-	cout << "Hello World" << endl;
-	return 0;
-}
