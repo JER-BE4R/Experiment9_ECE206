@@ -5,8 +5,19 @@
 using namespace std;
 
 int main() {
-	int inputOne = 1;
-	int inputTwo = 0;
+	//int inputOne = 1;
+	//int inputTwo = 0;
+
+	int inputOne;
+	int inputTwo;
+
+	cout << "Enter input One (0 or 1): ";
+
+	cin >> inputOne;
+
+	cout << "Enter input Two (0 or 1): ";
+
+	cin >> inputTwo;
 
 	int result = evaluateSystem(inputOne,inputTwo);
 
@@ -51,5 +62,10 @@ int main() {
 	}
 	else cout << "ERROR";
 
+	return 0;
+}
+
+int main() {
+	cout << "Hello World" << endl;
 	return 0;
 }
